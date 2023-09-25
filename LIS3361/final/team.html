@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Tostee Cafe
+</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+<div class="header">
+<center>
+<h1 style="font-family:courier new; color:#7c5522">Tostee Cafe</h1>
+<img src="tostee.png" alt="Tostee Logo" width="70" height="70"></img>
+<br>
+<br>
+<div class="style">
+<a href="main.html"> Home </a> |
+<a href="menu.html"> Menu </a> |
+<a href="#top"><b>Meet the Team</b></a> |
+<a href="location.html"> Location </a> |
+<a href="contact.html"> Contact </a>  
+</center>
+</div>
+</div>
+<a name="top"></a>
+<p> .
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</center>
+
+<h2 style="font-family: Lucida Console, Courier New, monospaced">Meet the Team</h2>
+<p>For the sake of privacy for our employees, we are allowed to reject giving out our personal information outside of our employee's first names/nicknames. 
+<br> Click below to go straight to leaving a review.
+<br>
+<br>
+<a href="#review">Leave Review</a>
+<br>
+<br>
+Otherwise, enjoy meeting our staff and learning their favorite drinks! Maybe take their word for it and try one out!
+<br>
+<p style="color:grey">Disclaimer, the images used for the team are photos used from public domain google images and are not real employees. </p>
+<br>
+</p>
+<hr>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="barista4.png" alt="Barista 4" style="width:100%">
+      <div class="container">
+        <h2>"Nadia"</h2>
+        <p class="title">Manager</p>
+        <p><b> Favorite Drink: </b></p>
+        <p>Raspberry Latte with Oat Milk.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="barista1.png" alt="Barista 1" style="width:100%">
+      <div class="container">
+        <h2>"Jenny"</h2>
+        <p class="title">Barista</p>
+        <p><b>Favorite Drink:</b></p>
+        <p>Cappuccino with Lavendar and Soy Milk.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="barista2.png" alt="Barista2" style="width:100%">
+      <div class="container">
+        <h2>"Kris"</h2>
+        <p class="title">Barista</p>
+        <p><b>Favorite Drink:</b></p>
+        <p>Cold Brew with Hazelnut Flavor.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="column">
+    <div class="card">
+      <img src="barista3.png" alt="Barista3" style="width:100%">
+      <div class="container">
+        <h2>"Jason"</h2>
+        <p class="title">Barista</p>
+        <p><b>Favorite Drink:</b></p>
+        <p>Mocha with an extra Espresso shot and a hint of Caramel.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--<a name="review"></a>
+
+  <div class="review">
+    <div class="card">
+      <div class="container">
+        <form name="reviewForm"> -->
+
+<table>
+<tr>
+  <th colspan="2">Leave a Review Below</th>
+</tr>
+<tr>
+  <td>Full Name:</td> <td><input type="text" size="40" name="fullname"></td>
+</tr>
+
+<tr>
+  <td> E-mail Address: </td> <td> <input type="text" size="40" name="email"></td>
+</tr>
+
+<script>
+function processForm()
+var e = document.thisForm.fullname.value + "\n" + document.thisForm.email.value
+
+var p = ""
+switch(document.reviewForm.Rating.value)
+{
+  case "none":
+  p = "No rating selected."
+  break
+  case "onestar":
+  p = "One Star."
+  break
+  case "twostar":
+  p = "Two Stars."
+  break
+  case "threestar":
+  p = "Three Stars."
+  break
+  case "fourstar":
+  p = "Four Stars."
+  break
+  case "fivestar":
+  p = "Five Stars."
+  break
+}
+e = e + "Priority" + p + "\n\n" + document.thisForm.message.value
+document.thisForm.sentMessage.value = e
+  </script>
+<tr>
+  <td> Rating: </td> 
+
+  <td>
+    <select name="Rating" id="Rating">
+      <option value="none">Choose a rating</option>
+      <option value="onestar">One Star (*)</option>
+      <option value="twostar">Two Stars (**)</option>
+      <option value="threestar">Three Stars (***)</option>
+      <option value="fourstar">Four Stars (****)</option>
+      <option value="fivestar">Five Stars (*****)</option>
+    </select>
+  </td>
+</tr>
+
+<tr>
+  <td valign="top">Message:</td> <td><textarea name="message" rows="4" cols="40"></textarea></td>
+</tr>
+
+<tr>
+  <td><input type= "reset" value="Clear Form"></td>
+  <td><input type= "button" value= "Send Message" onClick="processForm()"> </td>
+</tr>
+<!--
+</div>
+</div>
+</div>
+-->
+
+
+
+
+
+
+
+
+
+<div class="rightpanel">
+
+<h3> Looking to Join Our Team? </h3>
+<p style="font-family:courier new; font-size: 10px; color:#ce9f42;"> <b>Last Updated: May 2, 2021</b> </p>
+<p> Unfortunately, we are are not looking to hire right now. However, you can always check back here or follow us on our social media for any updates: 
+<br>
+<center>
+<a href="https://www.instagram.com/tosteecafe/" target="_blank">@TosteeCafe</a>
+<br> 
+<br>
+on Instagram
+</center>
+<a name="review"></a>
+</div>
+<p> .
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</body>
+
+
+</html>

@@ -1,0 +1,68 @@
+.header {
+background-color: #E1DBD1;
+z-index: 1;
+position: fixed;
+top: 0px;
+left: 0px;
+height: 220 px;
+width: 100%;
+border-left-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-bottom-width: 2px;
+border-style: solid;
+border-color: white;
+}
+
+.leftpanel {
+z-index: 0;
+position: absolute;
+left: 0px;
+top: 210px;
+width: 150px;
+padding: 10px;
+background-color: tan;
+min-height: 100%;
+}
+
+.middlepanel {
+margin-left: 170px;
+margin-right: 180px;
+margin-top: 210px;
+background-color: #E1DBD1;
+border-left-width: 1px;
+border-right-width: 1px;
+border-top-width: 0px;
+border-bottom-width: 0px;
+border-style: solid;
+border-color: white;
+padding: 10px;
+min-height: 100%;
+}
+
+.rightpanel {
+z-index: 0;
+position: absolute;
+right: 0px;
+top: 210px;
+width: 160px;
+padding: 10px;
+background-color: tan;
+min-height: 100%;
+}
+
+.BodyContainer {
+position: absolute;
+left: 0px;
+max-width: 1200px;
+min-width: 650 px;
+}
+
+.box {
+float: right;
+width: 20%;
+padding: 10px;
+}
+
+
+

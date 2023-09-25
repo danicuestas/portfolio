@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Tostee Cafe
+</title>
+<link rel="stylesheet" href="stylesheet.css">
+
+<script>
+function processForm()
+var e = document.thisForm.fullname.value + "\n" + document.thisForm.email.value
+e = e + "\n\n" + document.thisForm.subject.value + "\n"
+
+var p = ""
+switch(document.thisForm.priority.value)
+{
+	case "none":
+	p = "No priority selected."
+	break
+	case "urgent":
+	p = "URGENT."
+	break
+	case "medium":
+	p = "Sort of important."
+	break
+	case "low":
+	p = "Not important at all."
+	break
+}
+e = e + "Priority" + p + "\n\n" + document.thisForm.message.value
+document.thisForm.sentMessage.value = e
+	</script>
+</head>
+
+<body>
+
+<div class="header">
+<center>
+<h1 style="font-family:courier new; color:#7c5522">Tostee Cafe</h1>
+<img src="tostee.png" alt="Tostee Logo" width="70" height="70"></img>
+<br>
+<br>
+<div class="style">
+<a href="main.html"> Home </a> |
+<a href="menu.html"> Menu </a> |
+<a href="team.html">Meet the Team</a> |
+<a href="location.html"> Location </a> |
+<a href="#top"> <b>Contact</b> </a> 
+</center>
+</div>
+</div>
+<a name="top"></a>
+<p> .
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</center>
+
+
+<h2 style="font-family: Lucida Console, Courier New, monospaced">Contact us</h2>
+<p>We can be reached through our phone.
+
+<br>
+<a href="tel:7192662837" target="_blank">Call (719) 266-2837 </a>
+<p style=" font-size: 10px; color:grey;">Disclaimer: This number calls a hotline that allows you to listen to your choice of a Daryl Hall & John Oates song. Enjoy.
+
+<hr>
+
+
+<form name="thisForm">
+<table>
+<tr>
+	<th colspan="2">Contact Us Below</th>
+</tr>
+<tr>
+	<td>Full Name:</td> <td><input type="text" size="40" name="fullname"></td>
+</tr>
+
+<tr>
+	<td> E-mail Address: </td> <td> <input type="text" size="40" name="email"></td>
+</tr>
+
+<tr> <td> Subject: </td> <td> <input type="text" size="40" name="subject"></td>
+</tr>
+
+<tr>
+	<td> Priority: </td> 
+
+	<td>
+		<select name="Priority" id="Priority">
+			<option value="none">Choose a priority</option>
+			<option value="urgent">Urgent</option>
+			<option value="high">High</option>
+			<option value="medium">Medium</option>
+			<option value="low">Low</option>
+		</select>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top">Message:</td> <td><textarea name="message" rows="4" cols="40"></textarea></td>
+</tr>
+
+<tr>
+	<td><input type= "reset" value="Clear Form"></td>
+	<td><input type= "button" value= "Send Message" onClick="processForm()"> </td>
+</tr>
+
+<tr>
+	<th colspan="2"> If your message passes inspection, it will be displayed below:</th>
+</tr>
+
+<tr>
+	<td valign="top"> Message Sent:</td>
+	<td><textarea name="sentMessage" rows="12" cols="40" readonly></textarea></td>
+
+</tr>
+</table>
+</form>
+
+</tr>
+
+<hr>
+<center>
+<a href="#top">Back to Top</a>
+</center>
+
+<h3> &#9888; <!-- Add Symbol like an exclamation mark --> For educational purposes only to meet the requirements of a college course. </h3>
+<br>
+
+</body>
+
+
+</html>
+

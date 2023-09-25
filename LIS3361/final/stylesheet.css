@@ -1,0 +1,147 @@
+.header {
+background-color: #eddcc5;
+color: white;
+z-index: 1;
+position: fixed;
+top: 0px;
+left: 0px;
+height: 200 px;
+width: 100%;
+border-left-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-bottom-width: 2px;
+border-style: solid;
+border-color: #E1DBD1;
+}
+
+a:link, a:visited {
+  background-color: #b78e69;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #7c5522;
+}
+
+.leftpanel {
+z-index: 0;
+position: absolute;
+left: 0px;
+top: 210px;
+width: 150px;
+padding: 10px;
+background-color: tan;
+min-height: 100%;
+}
+
+.middlepanel {
+margin-left: 170px;
+margin-right: 180px;
+margin-top: 210px;
+background-color: #E1DBD1;
+border-left-width: 1px;
+border-right-width: 1px;
+border-top-width: 0px;
+border-bottom-width: 0px;
+border-style: solid;
+border-color: white;
+padding: 10px;
+min-height: 100%;
+}
+
+.rightpanel {
+z-index: 0;
+position: absolute;
+right: 0px;
+top: 210px;
+width: 200px;
+padding: 10px;
+background-color: #7c5522;
+color: #eddcc5;
+min-height: 100%;
+}
+
+.BodyContainer {
+position: absolute;
+left: 0px;
+max-width: 1200px;
+min-width: 650 px;
+}
+
+.box {
+float: right;
+width: 20%;
+padding: 5px;
+}
+
+.boximage {
+float: right;
+width: 40%;
+padding: 20px;
+}
+
+.boximage2{
+	float: right;
+	width:30%;
+	padding:10px;
+}
+
+.style {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MEET THE TEAM */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+.review {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
